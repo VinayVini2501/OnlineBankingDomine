@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-19T10:32:48 IST" name="Default suite" finished-at="2023-01-19T10:32:57 IST" duration-ms="9595">
+    <groups>
+    </groups>
+    <test started-at="2023-01-19T10:32:48 IST" name="Default test" finished-at="2023-01-19T10:32:57 IST" duration-ms="9595">
+      <class name="open_Account.OpenAccountTest">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:open_Account.OpenAccountTest@54bff557]" started-at="2023-01-19T10:32:48 IST" name="connectDB" finished-at="2023-01-19T10:32:48 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="ConnectBCi()[pri:0, instance:open_Account.OpenAccountTest@54bff557]" started-at="2023-01-19T10:32:48 IST" name="ConnectBCi" finished-at="2023-01-19T10:32:52 IST" duration-ms="4440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectBCi -->
+        <test-method is-config="true" signature="connectBM()[pri:0, instance:open_Account.OpenAccountTest@54bff557]" started-at="2023-01-19T10:32:52 IST" name="connectBM" finished-at="2023-01-19T10:32:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectBM -->
+        <test-method signature="OpenAccount()[pri:0, instance:open_Account.OpenAccountTest@54bff557]" started-at="2023-01-19T10:32:52 IST" name="OpenAccount" finished-at="2023-01-19T10:32:57 IST" duration-ms="4719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccount -->
+        <test-method is-config="true" signature="connectAM()[pri:0, instance:open_Account.OpenAccountTest@54bff557]" started-at="2023-01-19T10:32:57 IST" name="connectAM" finished-at="2023-01-19T10:32:57 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectAM -->
+        <test-method is-config="true" signature="connectAC()[pri:0, instance:open_Account.OpenAccountTest@54bff557]" started-at="2023-01-19T10:32:57 IST" name="connectAC" finished-at="2023-01-19T10:32:57 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectAC -->
+        <test-method is-config="true" signature="disconnectDB()[pri:0, instance:open_Account.OpenAccountTest@54bff557]" started-at="2023-01-19T10:32:57 IST" name="disconnectDB" finished-at="2023-01-19T10:32:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+      </class> <!-- open_Account.OpenAccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

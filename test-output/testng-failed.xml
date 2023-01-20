@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="open_Account.OpenAccountTest">
+        <methods>
+          <include name="connectDB"/>
+          <include name="OpenAccount"/>
+          <include name="disconnectDB"/>
+          <include name="connectAM"/>
+          <include name="connectBM"/>
+          <include name="ConnectBCi"/>
+          <include name="connectAC"/>
+        </methods>
+      </class> <!-- open_Account.OpenAccountTest -->
+      <class name="internet_banking.InternetBankingRigisterTest">
+        <methods>
+          <include name="connectDB"/>
+          <include name="disconnectDB"/>
+          <include name="connectAM"/>
+          <include name="connectBM"/>
+          <include name="ConnectBCi"/>
+          <include name="rigister"/>
+          <include name="connectAC"/>
+        </methods>
+      </class> <!-- internet_banking.InternetBankingRigisterTest -->
+      <class name="staff_login.CreditCustomerTest">
+        <methods>
+          <include name="connectDB"/>
+          <include name="disconnectDB"/>
+          <include name="creditCustomer"/>
+          <include name="connectAM"/>
+          <include name="connectBM"/>
+          <include name="ConnectBCi"/>
+          <include name="connectAC"/>
+        </methods>
+      </class> <!-- staff_login.CreditCustomerTest -->
+      <class name="internet_banking.FundTransferTest">
+        <methods>
+          <include name="fundTransfer"/>
+          <include name="connectDB"/>
+          <include name="disconnectDB"/>
+          <include name="connectAM"/>
+          <include name="connectBM"/>
+          <include name="ConnectBCi"/>
+          <include name="connectAC"/>
+        </methods>
+      </class> <!-- internet_banking.FundTransferTest -->
+      <class name="staff_login.ViewCustomerByAccountNumberTest">
+        <methods>
+          <include name="ViewCustomerByAccNo"/>
+          <include name="connectDB"/>
+          <include name="disconnectDB"/>
+          <include name="connectAM"/>
+          <include name="connectBM"/>
+          <include name="ConnectBCi"/>
+          <include name="connectAC"/>
+        </methods>
+      </class> <!-- staff_login.ViewCustomerByAccountNumberTest -->
+      <class name="internet_banking.InternetBankingLoginTest">
+        <methods>
+          <include name="internetBankLogin"/>
+          <include name="connectDB"/>
+          <include name="disconnectDB"/>
+          <include name="connectAM"/>
+          <include name="connectBM"/>
+          <include name="ConnectBCi"/>
+          <include name="connectAC"/>
+        </methods>
+      </class> <!-- internet_banking.InternetBankingLoginTest -->
+      <class name="staff_login.ApprovePendingAccountTest">
+        <methods>
+          <include name="ApprovePendingAccount"/>
+          <include name="connectDB"/>
+          <include name="disconnectDB"/>
+          <include name="connectAM"/>
+          <include name="connectBM"/>
+          <include name="ConnectBCi"/>
+          <include name="connectAC"/>
+        </methods>
+      </class> <!-- staff_login.ApprovePendingAccountTest -->
+      <class name="applaydebitcard.AppalyDebitCardTest">
+        <methods>
+          <include name="applayDebitcard"/>
+          <include name="connectDB"/>
+          <include name="disconnectDB"/>
+          <include name="connectAM"/>
+          <include name="connectBM"/>
+          <include name="ConnectBCi"/>
+          <include name="connectAC"/>
+        </methods>
+      </class> <!-- applaydebitcard.AppalyDebitCardTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

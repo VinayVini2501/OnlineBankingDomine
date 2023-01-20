@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+<listeners>
+<listener class-name ="com.onlineBanking.genericutilities.ListnerImplimentation"/>
+</listeners>
+  <test name ="Test Runner 1">
+<parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="open_Account.OpenAccountTest"/>
+      <class name="staff_login.ApprovePendingAccountTest"/>
+      <class name="staff_login.ViewCustomerByAccountNumberTest"/>
+      <class name="staff_login.CreditCustomerTest"/>
+      <class name="applaydebitcard.AppalyDebitCardTest"/>
+      <class name="internet_banking.InternetBankingRigisterTest"/>
+      <class name="internet_banking.InternetBankingLoginTest"/>
+      <class name="internet_banking.FundTransferTest"/>
+  
+    </classes>
+  </test>
+
+   <test name = "Test Runner 2">
+<parameter name="Browser" value="edge"></parameter>
+    <classes>
+      <class name="open_Account.OpenAccountTest"/>
+      <class name="staff_login.ApprovePendingAccountTest"/>
+      <class name="staff_login.ViewCustomerByAccountNumberTest"/>
+      <class name="staff_login.CreditCustomerTest"/>
+      <class name="applaydebitcard.AppalyDebitCardTest"/>
+      <class name="internet_banking.InternetBankingRigisterTest"/>
+      <class name="internet_banking.InternetBankingLoginTest"/>
+      <class name="internet_banking.FundTransferTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
